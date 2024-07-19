@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Split- Cost</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/aap.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
     <div class="split-cost-wrapper">
@@ -23,42 +23,45 @@
                     <div><img src="https://randomuser.me/api/portraits/lego/2.jpg" alt=""></div>
                     <div><img src="https://randomuser.me/api/portraits/lego/4.jpg" alt=""></div>
                 </div>
+                <div>
+                    <button id="addNewUser">ADD NEW USER</button>
+                </div>
                 <form>
                     <div class="form-item">
                         <label>Description<span>*</span></label>
-                        <input type="text" name="Description" id="Description">
+                        <input type="text" name="Description" id="description">
                     </div>
                     <div class="form-row">
                         <div class="form-item">
                             <label>Amount$<span>*</span></label>
                             <input type="text" name="amount" id="amount">
                         </div>
-                        <input type="submit" value="Add New">
+                        <input type="submit" id="addnewbtn" value="Add New">
                     </div>
                 </form>
                 <div class="expenses-wrapper">
-                    <div class="expenses-item">
+                    <div class="expenses-item settled">
                         <div>
                             <span>Woolworths Shopping</span>
                             <span> 120.00$</span>
                         </div>
                         <div class="date">12March 2024 02:30:00</div>
                     </div>
-                    <div class="expenses-item">
+                    <div class="expenses-item settled">
                         <div>
                             <span>Aldi</span>
                             <span> 120.00$</span>
                         </div>
                         <div class="date">12March 2024 02:30:00</div>
                     </div>
-                    <div class="expenses-item">
+                    <div class="expenses-item settled">
                         <div>
                             <span>Coles</span>
                             <span> 120.00$</span>
                         </div>
                         <div class="date">12March 2024 02:30:00</div>
                     </div>
-                    <div class="expenses-item">
+                    <div class="expenses-item settled">
                         <div>
                             <span>IGA</span>
                             <span> 120.00$</span>
